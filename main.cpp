@@ -123,6 +123,10 @@ while(1==1){
 			usleep(10000);
 
 			a[1].erase();	
+			if(a[f].getY()==Y)
+			{
+			   break;
+			}
 		}
 	}
 	    
@@ -139,6 +143,10 @@ while(1==1){
 			usleep(10000);
 
 			a[1].erase();
+			if(a[f].getY()==Y)
+			{
+			   break;
+			}
 		}
 	}
 	
